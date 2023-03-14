@@ -1,0 +1,87 @@
+:root {
+  --primary-dark-cyan: hsl(158, 36%, 37%);
+  --primary-cream: hsl(30, 38%, 92%);
+
+  --Neutral-very-dark-blue: hsl(212, 21%, 14%);
+  --Neutral-dark-grayish-blue: hsl(228, 12%, 48%);
+  --Neutral-white: hsl(0, 0%, 100%);
+
+  --Default-font: Montserrat;
+  --Default-font2: Fraunces;
+}
+
+body {
+  background-color: var(--primary-cream);
+}
+
+.p-card {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.p-card img {
+  max-width: 350px;
+}
+
+.p-content {
+  font-family: Montserrat;
+  letter-spacing: 7px;
+  font-size: 12px;
+}
+
+.p-title {
+  font-family: Fraunces;
+  line-height: 40px;
+  color: var(--Neutral-very-dark-blue);
+}
+
+.p-text {
+  font-family: Montserrat;
+  font-size: 13px;
+  color: var(--Neutral-very-dark-blue);
+  margin-top: 10px;
+}
+
+.pricediv {
+  display: flex;
+  align-items: center;
+}
+.price {
+  font-family: Fraunces;
+  font-size: 30px;
+  color: var(--primary-dark-cyan);
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.original-price {
+  font-family: Montserrat;
+  font-size: 12px;
+  color: var(--Neutral-very-dark-blue);
+  margin-top: 10px;
+  text-decoration: line-through;
+}
+
+.p-body {
+  max-width: 350px;
+  background-color: var(--Neutral-white);
+
+  padding: 20px;
+}
+
+.AddButton {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: bold;
+  width: 100%;
+  height: 40px;
+
+  background-color: var(--primary-dark-cyan);
+  color: var(--Neutral-white);
+  border: 0px;
+  border-radius: 5px;
+}
+.AddButton:hover {
+  background-color: var(--Neutral-very-dark-blue);
+}
