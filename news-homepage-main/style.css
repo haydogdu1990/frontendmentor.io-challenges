@@ -1,7 +1,9 @@
 body {
-  background-color: blue;
+  background-color: var(--off-white);
   display: flex;
   justify-content: center;
+
+  box-sizing: border-box;
 }
 
 .app1 {

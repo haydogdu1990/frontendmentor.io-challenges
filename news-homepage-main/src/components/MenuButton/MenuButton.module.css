@@ -1,0 +1,8 @@
+.text {
+  color: var(--dark-grayish-blue);
+  padding: 18px;
+}
+
+.text:hover {
+  color: var(--soft-red);
+}
