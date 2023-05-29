@@ -1,0 +1,9 @@
+body {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.app1 {
+  width: 80%;
+}
